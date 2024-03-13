@@ -1,0 +1,44 @@
+.FAQs{
+    padding: 0 3rem;
+    padding-bottom: 5rem;
+    margin-top: 6rem;
+}
+.FAQs > h1{
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+}
+.FAQs > p{
+    color: gray;
+    margin-bottom: 4rem;
+}
+.accordion{
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+.question{
+    display: flex;
+    justify-content: space-between;
+}
+.question span{
+    font-size: 3rem;
+    cursor: pointer;
+}
+.question p{
+    font-size: 1.7rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+.answer p{
+    font-size: 0.9rem;
+    color: gray;
+    margin-bottom: 1rem;
+}
+
+@media(max-width:654px){
+    .FAQs h1{
+        font-size: 2rem;
+    }
+    .question p{
+        font-size: 1.3rem;
+    }
+}

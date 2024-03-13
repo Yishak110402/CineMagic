@@ -1,0 +1,32 @@
+.hero{
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hero div h3{
+    font-size: 0.9rem;
+    color: gray;
+    margin-bottom: 6rem;
+}
+.hero h1{
+    margin-bottom: 3rem;
+    font-size: 3.5rem;
+}
+.hero p{
+    margin-bottom: 6rem;
+    color: gray;
+    font-size: 0.95rem;
+}
+
+@media(max-width:800px){
+    .hero h1{
+        font-size: 2rem;
+    }
+}
+@media(max-width:500px){
+    .hero h1{
+        font-size: 1.8rem;
+    }
+}

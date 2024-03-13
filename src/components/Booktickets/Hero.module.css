@@ -1,0 +1,35 @@
+.heroContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6rem;
+    gap: 0rem;
+    padding: 0 6rem;
+}
+.heroContainer>div{
+    flex-basis: 50%;
+}
+.heroContainer h4{
+    margin-bottom: 4rem;
+    color: gray;
+    font-size: 0.9rem;
+}
+.heroContainer h1{
+    font-size: 2.9rem;
+}
+.heroContainer p{
+    margin-top: 5rem;
+    font-size: 1.1rem;
+    color: gray;
+}
+@media(max-width:700px){
+    .heroContainer{
+        flex-flow: column;
+        justify-content: center;
+    }
+    .heroContainer h1{
+        font-size: 2rem;
+    }
+    .heroContainer p{
+        font-size: 0.9rem;
+    }
+}

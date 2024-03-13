@@ -1,0 +1,82 @@
+.bookForm h1{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 3rem;
+}
+.bookForm p{
+    text-align: center;
+    font-size: 1.3rem;
+    color: gray;
+    margin-bottom: 3rem;
+}
+
+.form{
+    width: 100%;
+    text-align: center;
+}
+.form label{
+    font-size: 0.8rem;
+    color: gray;
+    margin: 0.5rem;
+    text-align: left;
+}
+.form input{
+    height: 2rem;
+    padding-left: 0.6rem;
+    font-size: 1.1rem;
+    border-radius: 20px;
+    border: none;
+}
+.formContainer{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-bottom: 3rem;
+}
+.formContainer div{
+    flex-basis: 20%;
+    display: flex;
+    flex-flow: column;
+}
+.form span{
+    color: gray;
+    margin-right: 2rem;
+}
+.form select{
+    color: #f7f7f7;
+    background-color: #242424;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    padding: 0.3rem;
+    margin-bottom: 4rem;
+}
+.bookedDetails{
+    padding: 5rem;
+    width: 100vw;
+}
+.bookedDetails table{
+    width: 90vw;
+    background-color: #242424;
+    margin-top: 3rem;
+    text-align: center;
+}
+.bookedDetails thead{
+    height: 4rem;
+    font-size: 1.3rem;
+}
+.bookedDetails td{
+    padding: 1.5rem;
+    font-size: 1.1rem;
+}
+@media(max-width: 700px){
+    .bookForm h1{
+        font-size: 1.5rem;
+    }
+    .bookForm p{
+        font-size: 0.9rem;
+    }
+    .formContainer{
+        flex-flow: column;
+        gap: 1rem;
+    }
+}

@@ -1,0 +1,99 @@
+.showingListContainer{
+    width: 100vw;
+    /* display: flex; */
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+}
+.moviess{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.moviesList{
+    flex-basis: 30%;
+    margin: 2rem 0;
+    text-align: center;
+    padding: 1.3rem;
+    height: 590px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+.moviesList h1{
+    font-size: 1.5rem;
+}
+.moviesList img{
+    height: 400px;
+}
+.btnContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.btnContainer button{
+    height: 2.5rem;
+    width: 7rem;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1.06rem;
+}
+.bookBtn{
+    color: #f7f7f7;
+    background-color: #242424;
+}
+.detailBtn{
+    background-color: #f7f7f7;
+   color: #242424;
+}
+.viewAllBtn{
+    text-align: center;
+    width: 7rem;
+    height: 2rem;
+    margin: 2rem auto;
+    cursor: pointer;
+    background-color: #f7f7f7;
+    color: #242424;
+    border: none;
+    font-size: 1.1rem;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.5s ease;
+}
+.viewAllBtn::after{
+    content: "";
+    position: absolute;
+    bottom: 5px;
+    right: 0;
+    width: 100%;
+    height: 7%;
+    transform: translateX(-110%);
+    background-color: #242424;
+    transition: all 0.5s ease;
+    /* border: 1px solid red; */
+}
+.viewAllBtn:hover::after{
+    transform: translateX(0);
+}
+
+.loader{
+    font-size: 2.3rem;
+}
+@media(max-width:1248px){
+    .showingListContainer{
+        flex-flow: column;
+    }
+    .moviesList{
+        flex-basis: 20%;
+    }
+}
+@media(max-width:500px){
+    .moviesList{
+        flex-basis: 15%;
+    }
+}
