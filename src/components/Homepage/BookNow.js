@@ -14,7 +14,7 @@ export default function BookNow() {
           Experience the latest blockbuster movies at CineMagic. Book your
           tickets now
         </p>
-       <NavLink to="/nowshowing"><Button/></NavLink> 
+       <NavLink to="/booktickets"><Button/></NavLink> 
       </div>
     </div>
   );

@@ -101,14 +101,14 @@ export default function BookTicketsForm({ nowShowing }) {
             <input
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              type="text"
+              type="email"
               required
             />
             <label>Phone Number</label>
             <input
               value={phoneNum}
               onChange={(e) => setPhoneNum(e.target.value)}
-              type="text"
+              type="number"
               required
             />
           </div>

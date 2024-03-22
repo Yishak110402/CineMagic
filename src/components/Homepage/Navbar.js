@@ -6,10 +6,10 @@ export default function Navbar() {
   const [mobShow, setMobShow]=useState(false)
   return (
     <nav className={styles.navbar}>
-      <div className={styles.brand}>CineMagic</div>
+      <div className={styles.brand}><NavLink to="/">CineMagic</NavLink></div>
       <ul className={styles.desktopNav}>
         <li>
-          <NavLink to="home">Home</NavLink>
+          <NavLink to="/">Home</NavLink>
         </li>
         <li>
           <NavLink to="nowshowing">Now Showing</NavLink>
