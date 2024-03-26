@@ -24,7 +24,7 @@ export default function Navbar() {
       </div>
         {mobShow && <div className={styles.mobileNavContainer} onClick={()=>(setMobShow(false))}>
         <li>
-          <NavLink to="home">Home</NavLink>
+          <NavLink to="/">Home</NavLink>
         </li>
         <li>
           <NavLink to="nowshowing">Now Showing</NavLink>
